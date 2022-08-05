@@ -1,11 +1,5 @@
 
-// let a = "hello";
-// console.warn(a)
-export{}
-class App{
-test(){
-    console.warn("test function working")
-}
-}
-let a = new App();
-a.test()
+let a =['abc', 'cde','efg'];
+a.push('xyz')
+console.log(a);
+
